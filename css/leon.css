@@ -1,4 +1,7 @@
 /* Start Varibles */
+:root{
+    --main-color:#10cab7;
+}
 
 /* End Varibles */
 
@@ -93,6 +96,7 @@ position: relative;
     top:calc(100% + 15px);
     min-width:200px;
     display: none;
+    z-index: 1;
 }
 .header .links:hover ul {
     display: block;
@@ -122,8 +126,31 @@ position: relative;
 /* End Header Css */
 
 /* Start Landing section */
-
-
+.landing{
+    background-image: url(../images/686998.jpeg);
+    background-size: cover ;
+    height:calc(100vh - 64px);
+    position: relative;
+}
+.landing .intro-text{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    width:332px;
+    max-width: 100%;
+}
+.landing .intro-text h1{
+    margin: 0;
+    color:var(--main-color);
+    font-weight:bold;
+    font-size:50px;
+}
+.landing .intro-text p {
+    font-size: 19px;
+    line-height:1.8;
+}
 /* End Landing section */
 
 
