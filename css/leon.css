@@ -432,6 +432,19 @@ position: relative;
     }
 }
 /* End contact*/
+/* Start footer */
+.footer{
+    background-color:var(--secondary-color);
+    padding:30px 10px;
+    color:white;
+    text-align:center;
+    font-size:18px;
+}
+.footer span{
+    color:var(--main-color);
+
+}
+/* end footer */
 
 
 
